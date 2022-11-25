@@ -1,8 +1,0 @@
-set(CMAKE_C_STANDARD 99)
-
-set(CURRENT_EXE_NAME sample)
-set(SOURCE_FILES main.c)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-add_executable(${CURRENT_EXE_NAME} ${SOURCE_FILES})
-
-install(TARGETS ${CURRENT_EXE_NAME} DESTINATION bin)
